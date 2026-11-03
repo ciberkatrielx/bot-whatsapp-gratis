@@ -1,1 +1,22 @@
-{"nombre": "Tu Negocio Multirubro", "horarios": "Lunes a Viernes: 9:00 - 20:00\nSábados: 9:00 - 14:00\nDomingos: Cerrado", "direccion": "Calle Principal 123, Local 5\nCiudad, Provincia\nCódigo Postal", "telefono": "+54 9 11 1234-5678", "whatsapp": "+54 9 11 1234-5678", "medios_pago": "• Efectivo\n• Débito\n• Crédito (1 pago)\n• Transferencia bancaria\n• Mercado Pago"}
+{
+  "nombre": "CiberKatriel",
+  "direccion": "Emiliano Zapata #6, Col. San Pedro Mártir, Tlalpan, CP 14650, CDMX",
+  "telefono": "5528828062",
+  "whatsapp": "5528828062",
+  "horario": {
+    "domingo": "1:00 PM - 8:00 PM",
+    "lunes": "1:00 PM - 8:50 PM",
+    "martes": "1:00 PM - 8:50 PM",
+    "miercoles": "1:00 PM - 8:50 PM",
+    "jueves": "1:00 PM - 8:50 PM",
+    "viernes": "1:00 PM - 8:50 PM",
+    "sabado": "4:00 PM - 8:00 PM"
+  },
+  "medios_pago": [
+    "Efectivo",
+    "Transferencia electrónica",
+    "Pago con tarjeta"
+  ],
+  "mensaje_bienvenida": "¡Bienvenido a CiberKatriel! 🖨️📚 Somos tu cibercafé y papelería de confianza en San Pedro Mártir. ¿En qué te podemos ayudar?",
+  "notas": "Para actas de nacimiento, el costo varía según el estado. Pregunta por tu estado para darte el precio exacto."
+}
