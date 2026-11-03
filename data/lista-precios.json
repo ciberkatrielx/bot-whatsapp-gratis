@@ -1,1 +1,27 @@
-{"categories": [{"name": "Electronics", "products": [{"name": "Smartphone", "price": 699.99}, {"name": "Laptop", "price": 999.99}]}, {"name": "Home Appliances", "products": [{"name": "Refrigerator", "price": 499.99}, {"name": "Microwave", "price": 149.99}]}]}
+{
+  "impresiones": {
+    "impresion_bn_carta": "$1.00 por hoja",
+    "impresion_color_carta": "$7.00 por hoja",
+    "impresion_bn_oficio": "$2.00 por hoja",
+    "impresion_color_oficio": "$10.00 por hoja"
+  },
+  "copias": {
+    "copia_bn_carta": "$1.00 por hoja",
+    "copia_color_carta": "$7.00 por hoja (hoja completa)",
+    "copia_bn_oficio": "$2.00 por hoja",
+    "copia_color_oficio": "$10.00 por hoja (hoja completa)"
+  },
+  "tramites": {
+    "localizacion_curp": "$10.00",
+    "acta_nacimiento": "$22.00 + costo según el estado del acta"
+  },
+  "papeleria": {
+    "pluma_bic_papermate": "$8.00",
+    "cuaderno_profesional_100_hojas_monky": "$30.00",
+    "papel_china": "$2.00 el pliego (cualquier color)",
+    "cartulina_blanca": "$6.00",
+    "cartulina_iris": "$12.00",
+    "cartulina_fluorescente": "$10.00",
+    "cartulina_negra_iris": "$12.00"
+  }
+}
