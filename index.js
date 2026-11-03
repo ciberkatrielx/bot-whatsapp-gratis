@@ -28,6 +28,12 @@ async function conectarWhatsApp() {
 
     sock.ev.on('connection.update', (update) => {
         const { connection, lastDisconnect, qr } = update;
+    if (qr) {
+    // Si hay un QR pero no lo puedes ver, pide el código de vinculación
+    const numero = '5528828062'; // Tu número de WhatsApp Business
+    const codigo = await sock.requestPairingCode(numero);
+    console.log(`🔑 CÓDIGO DE VINCULACIÓN: ${codigo}`);
+}
         
         // IMPORTANTE: Mostrar código QR cuando esté disponible
         if (qr) {
