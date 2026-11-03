@@ -42,11 +42,7 @@ async function conectarWhatsApp() {
             console.log('👉 Escanea el código QR de arriba');
             console.log('==============================================\n');
         }
-        if (!sock.authState.creds.registered) {
-            const numero = '5528828062'; // Tu número de WhatsApp Business
-            const codigo = await sock.requestPairingCode(numero);
-            console.log(`Tu código de vinculación es: ${codigo}`);
-            }
+       
         if(connection === 'close') {
             const shouldReconnect = (lastDisconnect?.error?.output?.statusCode !== DisconnectReason.loggedOut);
             console.log('❌ Conexión cerrada.');
